@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Header-->
+    <section class="section-outer section-header">
+        <div class="section-inner">
+            <div class="dev">CityDev Group</div>
+            <div class="section-header-logo">
+                <img src="img\logo.png" alt="logo">
+            </div>
+
+            <div id="sidebar">
+                <div class="toggle-btn" onclick="openMenu()">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+
+                <ul>
+                    <li></li>
+                    <li><a href="/">Проекты</a></li>
+                    <li><a href="/">Услуги</a></li>
+                    <li><a href="/">FAQ</a></li>
+                    <li><a href="/">Отзывы</a></li>
+                    <li><a href="/">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="section-header-title">РЕАЛИЗУЕМ КРУПНЕЙШИЕ
+                ПРОЕКТЫ В РОССИИ</div>
+            <div class="section-header-subtitle">стадионы, газопроводы, мосты, дамбы</div>
+            <div class="section-header-container">
+                <div class="block-num">20</div>
+                <div class="block-text">лет</div>
+                <div class="block-subtext">на рынке</div>
+                <div class="block-num2">34</div>
+                <div class="block-text2">проекта</div>
+                <div class="block-subtext2">реализовано</div>
+                <div class="block-num3">5</div>
+                <div class="block-text3">проектов</div>
+                <div class="block-subtext3">в работе</div>
+                <div class="block-num4">60 </div>
+                <div class="block-text4">объектов</div>
+                <div class="block-subtext4">планируется построить до 2030 г.</div>
+            </div>
+        </div>
+    </section>
+    <!--/Header-->
+
+    <!--Projects-->
+    <section class="section-project">
+        <h2 class="projects-title">Наши самые большие проекты</h2>
+        <div class="block-project-1"></div>
+        <div class="block-project-1-line"></div>
+        <div class="block-project-1-title">Большой Обуховский мост</div>
+        <div class="block-project-1-text">Мы гордимся, что построили один из самых длинных мостов России. Первый
+            неразводной мост через Неву и самый большой в Санкт-Петербурге по величине перекрываемого пролёта, а также
+            самый большой мост через Неву. </div>
+
+        <div class="block-project-2"></div>
+        <div class="block-project-2-line"></div>
+        <div class="block-project-2-title">Защитная дамба</div>
+        <div class="block-project-2-text">Петербургская защитная дамба действительно удивительный проект. Дамба
+            выполняет две функции: защищает город от наводнений и служит автомагистралью, являясь составной частью КАД -
+            Кольцевой автодороги, трассы А-118. Часть этой дороги проходит по огромному тоннелю, расположенному глубоко
+            под водой. Путешествие по подводному тоннелю напомнит Вам кадры из фантастического фильма.
+        </div>
+
+        <div class="block-project-3"></div>
+        <div class="block-project-3-line"></div>
+        <div class="block-project-3-title">Газпром Арена</div>
+        <div class="block-project-3-text">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной
+            точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</div>
+    </section>
+
+    <section class="banner">
+        <div>
+            <p class="banner-title">САМЫЕ УМНЫЕ ПРОЕКТЫ</p>
+            <p class="banner-subtitle">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</p>
+        </div>
+        <div class="banner-button">
+            <button data-modal class="banner-btn">
+                СВЯЗАТЬСЯ С НАМИ
+            </button>
+        </div>
+    </section>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>
